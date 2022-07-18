@@ -13,14 +13,6 @@ body{
     max-width: 960px;
     min-width: 640px;
 }
-body#services{
-    display: inline;
-    margin-left: auto;
-    margin-right: auto;
-    width: 95%;
-    max-width: 960px;
-    min-width: 640px; 
-}
 .flex-container{
     display: flex;
 }
