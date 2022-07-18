@@ -21,14 +21,6 @@ body#services{
     max-width: 960px;
     min-width: 640px; 
 }
-div{
-    background-color: darkgrey;
-    border: 2px solid black;
-    margin-top: 320px;
-    margin-bottom: 320px;
-    margin-right: 320px;
-    margin-left: 320px;
-}
 .flex-container{
     display: flex;
 }
@@ -75,26 +67,6 @@ nav#a{
     margin-right: auto;
     width: 50%;
 }
-
-
-section#leftColumn{
-    display: inline-block;
-    background: #faead6;
-    vertical-align: top;
-    padding: 36px;
-    
-}
-
-section#rightColumn{
-    display: inline-block;
-    background: #faead6;
-    padding: 36px;
-}
-
-section#centerColumn{
-    padding: 36px;
-}
-
 /*Footer*/
 footer{
     text-align: center;
