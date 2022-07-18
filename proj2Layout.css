@@ -1,0 +1,105 @@
+/*CSS layout VER.2 for CIS162
+Author:Y, Rithya
+Last updated: 2022/07/17
+*/
+
+/*html, body, and div*/
+
+body{
+    background-color: #faead6;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    max-width: 960px;
+    min-width: 640px;
+}
+body#services{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    max-width: 960px;
+    min-width: 640px; 
+}
+div{
+    background-color: darkgrey;
+    border: 2px solid black;
+    margin-top: 320px;
+    margin-bottom: 320px;
+    margin-right: 320px;
+    margin-left: 320px;
+}
+.flex-container{
+    display: flex;
+}
+.flex-child{
+    flex: 1;
+    border: 2px solid #faead6;
+}
+.flex-child:first-child{
+    margin-right: 20px;
+}
+
+
+
+/*Structural Style*/
+header, main, nav, section, footer{
+    display: block;
+}
+
+dt{
+    margin-top: 10px;
+}
+/*headers*/
+h1{
+    text-align: center;
+    text-decoration: overline underline;
+}
+h2{
+    text-align: center;
+    text-decoration: overline;
+}
+
+/*Navigaton*/
+nav#a{
+    display: block;
+    text-align: center;
+    float: inherit;
+    padding: 10px;
+    text-decoration: overline;
+}
+
+/*Div and classes*/
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+section#leftColumn{
+    display: inline-block;
+    background: #faead6;
+    vertical-align: top;
+    padding: 36px;
+    
+}
+
+section#rightColumn{
+    display: inline-block;
+    background: #faead6;
+    padding: 36px;
+}
+
+section#centerColumn{
+    padding: 36px;
+}
+
+/*Footer*/
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: dimgray;
+    color: white;
+}
