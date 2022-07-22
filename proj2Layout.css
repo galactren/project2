@@ -44,14 +44,34 @@ h2{
 }
 
 /*Navigaton*/
-nav#a{
-    display: block;
-    text-align: center;
-    float: inherit;
-    padding: 10px;
-    text-decoration: overline;
+.navigation-menu ul {
+  padding: 0px;
+  margin: 0 auto;
+  text-align: center;
 }
-
+ul {
+    padding: 0;
+    overflow: hidden;
+    background-color: dimgray;
+}
+li {
+    float: left;
+    list-style-type:none;
+}
+li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color:#faead6;
+}
+#navigation ul
+{
+	font-size: 1.5em;
+}
 /*Div and classes*/
 .center{
     display: block;
