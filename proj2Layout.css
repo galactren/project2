@@ -1,6 +1,6 @@
 /*CSS layout VER.2 for CIS162
 Author:Y, Rithya
-Last updated: 2022/07/22
+Last updated: 2022/07/26
 */
 .grid-container{
     display: grid;
@@ -24,8 +24,10 @@ Last updated: 2022/07/22
     align-content: center;
 }
 .grid-item-bod1{
-	justify-self: right;
+    justify-self: right;
 }
+
+
 /*Headers*/
 h1{
     text-align: center;
@@ -38,6 +40,7 @@ h2{
 body{
     background-color: antiquewhite;
 }
+
 
 /*Navigation*/
 .navigation-menu ul {
@@ -68,6 +71,32 @@ li a:hover {
 {
 	font-size: 1.5em;
 }
+
+
+/*Accordion*/
+.accordion{
+    background-color: antiquewhite;
+    color: black;
+    transition: 0.4s;
+}
+.active, .accordion:hover{
+    background-color: darkred;
+}
+.panel{
+    background-color: antiquewhite;
+    padding: 0 18px;
+    display: none;
+    overflow: auto;
+}
+
+/*Card Group*/
+.card-group{
+    display: inline-flex;
+    text-align: center;
+    border-color: darkred;
+    border: solid;
+}
+
 
 /*Gallery*/
 * {box-sizing: border-box}
@@ -157,6 +186,8 @@ img {vertical-align: center;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+
 /*Form*/
 * {
   box-sizing: border-box;
@@ -220,6 +251,8 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 }
+
+
 /*Footer*/
 footer{
     text-align: center;
